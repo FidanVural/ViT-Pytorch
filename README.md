@@ -1,2 +1,2 @@
 # ViT-Pytorch
-This repository includes implementatin of Vision Transformer (ViT) in Pytorch.
+This repository includes implementation of Vision Transformer (ViT) in Pytorch.
