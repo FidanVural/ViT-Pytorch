@@ -43,3 +43,10 @@ Positional encoding için kullanılan formüller aşağıdaki görselde verilmi�
 Transformer mimarisinin en önemli kısmı diyebiliriz. Burada Query(Q), Key(K) ve Value(V) olarak adlandırılan 3 adet matristen bahsedeceğiz. Her bir 
 
 
+#### Sources
+- https://arxiv.org/pdf/2010.11929.pdf
+- https://medium.com/mlearning-ai/vision-transformers-from-scratch-pytorch-a-step-by-step-guide-96c3313c2e0c
+- https://medium.com/swlh/visual-transformers-a-new-computer-vision-paradigm-aa78c2a2ccf2
+- https://medium.com/machine-intelligence-and-deep-learning-lab/vit-vision-transformer-cc56c8071a20
+- https://towardsdatascience.com/transformers-explained-visually-part-3-multi-head-attention-deep-dive-1c1ff1024853#:~:text=This%20logical%20split%20is%20done%20by%20partitioning%20the%20input%20data%20as%20well%20as%20the%20Linear%20layer%20weights%20uniformly%20across%20the%20Attention%20heads.%20We%20can%20achieve%20this%20by%20choosing%20the%20Query%20Size%20as%20below%3A
+- https://mertcobanov.medium.com/vision-transformers-nedir-vits-nedir-14dce4d1c6d7
