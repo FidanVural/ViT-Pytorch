@@ -1,6 +1,13 @@
 # ViT-Pytorch
 Bu repoda Vision Transformer mimarisinin Pytorch kütühanesi ile implementasyonu bulunmaktadır.
 
+### Kütüphaneler
+
+- Torch
+- Numpy 
+- Tqdm
+- Matplotlib
+
 ### Adım Adım Vision Transformer
 Aşağıdaki görselde mimarinin tamamı gösterilmektedir. Genel anlamda özetlersek ilk olarak görüntü alınarak patch'lere ayrılır. Elde edilen patch'ler vektörlere çevrilerek bir dizi elde edilir ve bu dizinin en başına öğrenilebilir bir parametre olan classification token eklenir. Encoder'a girdi olarak verilmeden önce bu diziye bir de konum bilgisi (positional encoding) eklenir. Bu aşamalardan sonra artık girdi Encoder'a verilmek için uygun hale getirilmiş olur ve dizi Transformer Encoder'a girer. Transformer Encoder içerisinde MSA(Multi-Head Self Attention) ve MLP(Multi Layer Perceptron) olmak üzere 2 temel kısım bulunur. MSA kısmında attention skorları elde edilir. MLP kısmında da classification token ile sınıflandırma işlemi gerçekleştirilir.
 
