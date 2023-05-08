@@ -28,7 +28,7 @@ Sonrasında 2D olan her bir patch 1D haline getirilir. Bu da P\*P\*C işlemi ile
   <img src="https://user-images.githubusercontent.com/56233156/236192461-375232e6-8abb-46da-9445-b901cf12b255.png">
 </p>
 
-#### 2) Adding CLassification Token
+#### 2) Adding Classification Token
 Classification token elde edilen dizinin başına eklenir. Bu eklenen token değeri öğrenilebilir bir parametredir. Bu Vision Transformer modelindeki amacımız sınıflandırma olduğu için böyle bir parametre ekleriz.
 
 #### 3) Positional Encoding
