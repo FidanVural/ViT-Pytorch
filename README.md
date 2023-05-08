@@ -1,5 +1,5 @@
 # ViT-Pytorch
-Bu repoda Vision Transformer mimarisinin Pytorch kütühanesi ile implementasyonu bulunmaktadır.
+Bu repoda Vision Transformer mimarisinin Pytorch kütühanesi ile implementasyonu bulunmaktadır. [vision_transformers_implementation.py](https://github.com/FidanVural/ViT-Pytorch/blob/main/vision_transformers_implementation.py) kodunu inceleyebilirsiniz.
 
 ### Kütüphaneler
 
