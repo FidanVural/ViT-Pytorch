@@ -231,7 +231,7 @@ class MyViT(nn.Module):
         tokens = self.linear_mapper(patches) # patches are flattened and map to D dimensions. D = hidden_d --> 16'dan 8'e
 
         # 3) Classification token ekleme
-        # add classification token to every sequence --> (N, 49, 8) yani N tane resmim her biri 49 uzunluklu diziye sahip. Her bir dizinin BAŞINA bu classification token eklenir ve dizilerim artık 50 uzunkuklu olur.
+        # add classification token to every sequence --> (N, 49, 8) yani N tane resmim her biri 49 uzunluklu ve emb_size=8 olan diziye sahip. Her bir dizinin BAŞINA bu classification token eklenir ve dizilerim artık 50 uzunkuklu olur.
         # new shape --> (N, 50, 8)
         tokens = torch.stack([torch.vstack((self.class_token, tokens[i])) for i in range(len(tokens))])
 
